@@ -1,0 +1,355 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+@media print {
+  .container {
+    width: auto;
+  }
+}
+span#logo{
+  color: white;
+}
+
+
+div.navbar-collapse {
+  justify-content: flex-end;
+  /*font-weight: bold;*/
+  font-size: 15px;
+  letter-spacing: 1px;
+  font-family: 'Droid Sans', sans-serif;
+  padding: 0;
+  color: white;
+}
+
+nav.navbar-dark  {
+    color: rgb(255, 255, 255);
+}
+
+span#logo{
+  font-family: 'Poiret One', cursive;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+section#star{
+  background-image: url("https://images.unsplash.com/photo-1509276068829-4deeaa9fa7ed?auto=format&fit=crop&w=1352&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D");
+  width: 100%;
+  height: 40em;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 20px;
+  color: white;
+}
+
+h1#design{
+  font-family: 'Poiret One', cursive;
+  font-size: 60px;
+  font-weight: bold;
+  padding-top: 80px;
+}
+#example{
+  position: relative;
+}
+span#p{
+  font-family: 'Dosis', sans-serif;
+  font-size: 19px;
+  /* color:  #2980b9; */
+
+
+}
+
+.tengah{
+  font-size: 25px;
+}
+
+/**/ about
+
+#about{
+  font-size: 18px;
+  letter-spacing: 1px;
+  color: #1c1d1d;
+  position: center;
+  color: #2d2d2d;
+  padding-top: 90px;
+}
+
+span#profil h1{
+  padding-top:  20px;
+  font-size: 30px;
+
+}
+
+/**/ sidebar -----
+section {
+	padding:0 20px;
+	margin: 0 auto;
+	overflow: hidden;
+	box-sizing: border-box;
+}
+
+/* The main content */
+
+.main-content {
+	font-family: Arial, Helvetica, sans-serif;
+	width: 520px;
+	float: left;
+}
+
+/* The sidebar */
+
+.sidebar-light {
+	font-family: Arial, Helvetica, sans-serif;
+	float: right;
+	width: 280px;
+}
+
+.sidebar-light .company-info {
+	background-color: #f8f8f9;
+	margin-bottom: 30px;
+	padding: 35px 0;
+}
+
+.sidebar-light .company-info h3 {
+	color:  #4E5255;
+	font-size: 18px;
+	font-weight: bold;
+	margin: 0 0 25px;
+	padding: 0 40px;
+}
+
+.sidebar-light .company-info p {
+	color: #636568;
+	font-size: 13px;
+	line-height: 19px;
+	margin: 0 0 30px;
+	padding: 0 40px;
+}
+
+.sidebar-light .company-info .social-buttons {
+	padding: 0 40px;
+}
+
+.sidebar-light .company-info .social-buttons .fa {
+	border-radius: 2px;
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 1.7;
+	background-color: #7B858F;
+	width: 34px;
+	height: 34px;
+}
+
+.sidebar-light .latest-blog-posts {
+	background-color: #F1F4F6;
+}
+
+.sidebar-light .latest-blog-posts h3 {
+	background-color: #7B858F;
+	box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2);
+	padding: 20px 30px;
+	text-align: left;
+	color:  #ffffff;
+	font-size: 16px;
+	font-weight: bold;
+	margin: 0;
+}
+
+.sidebar-light .latest-blog-posts .element-title .fa {
+	margin-right: 15px;
+}
+
+.sidebar-light .latest-blog-posts ul {
+	list-style: none;
+	margin: 0;
+	text-align: left;
+	padding: 30px 40px;
+}
+
+.sidebar-light .latest-blog-posts ul li {
+	line-height: 1.2;
+	margin: 0 0 14px;
+}
+
+.sidebar-light .latest-blog-posts ul li a {
+	font-size: 13px;
+	text-decoration: none;
+	font-weight: bold;
+	color: #4F5255;
+}
+
+.sidebar-light .latest-blog-posts ul li span {
+	color: #92999F;
+	font-size: 11px;
+	display: block;
+	margin-top:4px;
+}
+
+/* Making the sidebar responsive */
+
+@media (max-width: 900px) {
+
+	.main-content {
+		float:none;
+		width: auto;
+		margin-bottom: 40px;
+	}
+
+	.sidebar-light {
+		float: none;
+		width: auto;
+	}
+
+}
+
+
+
+
+/**/ contact --------
+div#contact{
+  padding-top: 90px;
+}
+
+div.Copyright{
+
+}
+
+div#buttons {
+  cursor: pointer;
+}
+
+
+
+p.category_item {
+  float: left;
+  width:  20%;
+  text-align: center;
+  cursor: pointer;
+  font-size: 20px;
+  list-style: none;
+  font-family: 'Dosis', sans-serif;
+
+}
+
+p.category_item:hover{
+  background-color:  #fdd209;
+  transition: .7s;
+  -moz-transition: .7s;
+  -webkit-transition: .7s;
+}
+
+div.image{
+  width: 800px;
+  display: block;
+  list-style: none;
+  margin: auto;
+  box-sizing: border-box;
+}
+
+img.item{
+  box-sizing: border-box;
+  padding: 2px;
+  float: left;
+  width: 20%;
+  transition: all 0.4s ease-in-out;
+}
+.hide{
+  transform: scale(0);
+  width: 0;
+  padding: 0;
+}
+
+#example{
+  display: block;
+
+-webkit-margin-before: 0.83em;
+-webkit-margin-after: 0.83em;
+-webkit-margin-start: 0px;
+-webkit-margin-end: 0px;
+font-weight: bold;
+transition: opacity 2s ease;
+padding-left: 230px;
+}
+
+
+
+/* portfolio */
+.gallery-title
+{
+    font-size: 36px;
+    color: #42B32F;
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 70px;
+}
+.gallery-title:after {
+    content: "";
+    position: absolute;
+    width: 7.5%;
+    left: 46.5%;
+    height: 45px;
+    border-bottom: 1px solid #5e5e5e;
+}
+.filter-button
+{
+    font-size: 18px;
+    border: 1px solid #42B32F;
+    border-radius: 5px;
+    text-align: center;
+    color: #42B32F;
+    margin-bottom: 30px;
+
+}
+.filter-button:hover
+{
+    font-size: 18px;
+    border: 1px solid #42B32F;
+    border-radius: 5px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #42B32F;
+
+}
+.btn-default:active .filter-button:active
+{
+    background-color: #42B32F;
+    color: white;
+}
+
+.port-image
+{
+    width: 100%;
+}
+
+.gallery_product
+{
+    margin-bottom: 30px;
+}
+
+section#akhir{
+  height: 85px;
+  font-size: 15px;
+  letter-spacing: 1px;
+  padding-top:  25px;
+  background-color: #fdd209;
+}
+
+span#fot{
+  padding-top: 33px;
+}
+
+div.kotak{
+
+  float: right;
+}
+div.kotak a:hover{
+  background-color:  white;
+  transition: .5s;
+  -moz-transition: .5s;
+  -webkit-transition: .5s;
+
+
+}
